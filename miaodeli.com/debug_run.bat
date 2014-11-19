@@ -1,0 +1,1 @@
+set DEBUG=miaodeli.com & node .\bin\www
