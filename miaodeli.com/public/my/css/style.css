@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-bottom: 20px;
 }
 
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .logo span {
 	color: #ccc;
 }
@@ -23,7 +28,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 img {
 	max-width: 100%;
 	box-shadow: 0 0 10px black;
-	margin-bottom: 10px;
+}
+
+.img-title {
+	text-align: center;
+	font-size: .75em;
 }
 
 .never-display {
