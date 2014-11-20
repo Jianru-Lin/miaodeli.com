@@ -35,6 +35,10 @@ img:hover {
 	box-shadow: 0 0 10px rgb(0, 226, 183);
 }
 
+ol {
+	padding-left: 30px;
+}
+
 .img-title {
 	text-align: center;
 	font-size: .75em;
