@@ -10,4 +10,14 @@ html
         script(href='/jquery/jquery-2.1.1.min.js.js')
         script(href='/bootstrap/js/bootstrap.min.js')
     body
+        nav.nav.navbar-default(role='navigation')
+            .container
+                a.navbar-brand(href='#') 喵德利
+                ul.nav.navbar-nav
+                    li.active
+                        a(href='#', target='_blank') 首页
+                    li
+                        a(href='/lambda/', target='_blank') λ-VIEW
+                    li
+                        a(href='/chat/', target='_blank') 社区
         block content
