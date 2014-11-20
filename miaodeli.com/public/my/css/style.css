@@ -28,6 +28,11 @@ p {
 img {
 	max-width: 100%;
 	box-shadow: 0 0 10px black;
+	transition: box-shadow 1s;
+}
+
+img:hover {
+	box-shadow: 0 0 10px rgb(0, 226, 183);
 }
 
 .img-title {
